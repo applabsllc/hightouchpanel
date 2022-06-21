@@ -1,0 +1,29 @@
+
+.panelContainer{
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+}
+
+.panelColumn{
+	width: 33%;
+	box-sizing: border-box;
+	border: 3px solid #dfdfdf;
+	height: 100vh;
+	vertical-align: top;
+}
+
+.buttonHolder{
+	
+	right: 5%;
+	bottom: 5%;
+	position: absolute;
+}
+
+.niceButton{
+	background: #5761f7;
+	border-radius: 50%;
+	padding: 0px 12px;
+	font-size: 300%;
+	color: #ffffff;
+}
