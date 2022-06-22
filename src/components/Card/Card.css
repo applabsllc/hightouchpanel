@@ -1,12 +1,26 @@
 
 .cardWrapper{
-	
+	margin: 3px;
+	width: 90%;
 }
 
 .cardDisplay{
+	box-sizing: border-box;
+	padding: 10px;
 	background: #ffffff;
 	border-radius: 12px;
 	height: 100%;
 	width: 100%;
 	border: 1px solid #efefef;
+}
+
+.smallButton{
+	border-radius: 8px;
+	background: #5761f7;
+	color: #ffffff;
+	margin: 2px 5px;
+}
+
+.cardDesc{
+	margin-bottom: 7px;
 }
